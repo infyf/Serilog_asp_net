@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Welcome to the Index Page!</h1>
+
+<p>User IP: <strong>@ViewData["UserIp"]</strong></p>
+
+<p>
+    <a href="@Url.Action("Privacy", "Home")" class="btn btn-primary">Go to Privacy</a>
+    <a href="@Url.Action("Error", "Home")" class="btn btn-secondary">Go to Error</a>
+</p>
